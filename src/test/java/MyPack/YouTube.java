@@ -4,13 +4,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-
-import java.util.concurrent.TimeUnit;
-
 
 public class YouTube {
 
@@ -28,12 +21,12 @@ public class YouTube {
             Thread.sleep(100);
 
 
-
-            JavascriptExecutor js = (JavascriptExecutor) driver;
-
-            js.executeScript("window.scrollBy(0,1000)");
-
-            Thread.sleep(100);
+//
+//            JavascriptExecutor js = (JavascriptExecutor) driver;
+//
+//            js.executeScript("window.scrollBy(0,1000)");
+//
+//            Thread.sleep(100);
 
 
 
