@@ -37,7 +37,11 @@ import static java.lang.System.*;
 
         public void main() {
 
-            UploadDriver.FirefoxD(driver);
+          //  UploadDriver.FirefoxD(driver);
+
+
+
+            System.setProperty(UploadDriver.upload1, UploadDriver.upload2);
 
 
         }
@@ -56,6 +60,9 @@ import static java.lang.System.*;
 
 
     }
+
+
+
 
 
 
